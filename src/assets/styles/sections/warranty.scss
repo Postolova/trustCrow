@@ -1,5 +1,5 @@
 .warranty {
-    background-color: beige;
+    background-color: #fff;
 }
 
 .warranty__head {
@@ -10,3 +10,89 @@
     width: 600px;
     margin: 0 auto;
 }
+
+.features__list {
+    margin: 40px 0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.features__item {
+    display: inline-block;
+    width: 25%;
+    padding: 3px 24px;
+    font-size: 14px;
+    border-right: 2px solid lightgrey;
+    &:nth-child(4) {
+        border: none;
+    }
+}
+
+.features__name {
+    font-family: 'Druk-Wide';
+    font-size: 14px;
+    color: grey;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.steps__title {
+    font-family: "Druk-Wide";
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.steps__list {
+    display: flex;
+    justify-content:  space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.steps__item {
+    display: inline-block;
+    width: 22%;
+    padding: 15px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.steps__block {
+    border-bottom: 1px solid lightgrey;
+}
+
+.steps__number {
+    color: blue;
+    font-size: 24px;
+    font-family: "Druk-Wide";
+}
+
+.steps__desc {
+    font-weight: 600;
+}
+
+.payment {
+    width: 75%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payment__title {
+    font-family: "Druk-Wide";
+    color: grey;
+    font-size: 24px;
+    width: 200px;
+}
+
+.payment__pic {
+    width: 50%;
+    &:nth-child(1) {
+        margin-right: 40px;
+    }
+}
+

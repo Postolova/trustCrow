@@ -1,3 +1,7 @@
+.partners {
+    padding: 70px 0 90px 0;
+}
+
 .partners__head {
     display: flex;
     flex-direction: column;
@@ -30,7 +34,6 @@
     display: flex;
     box-shadow: 2px 2px 13px grey;
     border-radius: 3px;
-    margin-bottom: 100px;
     position: relative;
     &::after {
         content: '\25B2';
