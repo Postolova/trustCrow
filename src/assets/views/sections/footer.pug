@@ -1,2 +1,24 @@
 footer.footer
   .main-content
+    .footer__top
+      .footer__top-left
+        img(src="/assets/images/footer-logo.png", alt="logo company")
+        nav.footer__nav 
+          ul.nav-list
+            li.nav-item
+              a.nav-link(href="#0") Работы
+            li.nav-item
+              a.nav-link(href="#0") Тарифы
+            li.nav-item
+              a.nav-link(href="#0") Faq
+            li.nav-item
+              a.nav-link(href="#0") Новости
+      .footer__top-right
+        label.footer__input
+          span.input-label Оставьте свой номер чтобы подписаться на рассылку:
+          input.input-text(type="text" placeholder="Введите свой телефон")
+          button.input-submit(type="submit") +
+    .footer__bottom
+      
+      span.footer-copyright 2019 	&#169; Все права защищены
+      img.footer-point(src="./assets/images/point-logo.png", alt="point logo")

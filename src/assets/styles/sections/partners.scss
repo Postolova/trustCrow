@@ -1,0 +1,16 @@
+.partners__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__list {
+    width: 100%;
+}
+
+.partners__item {
+    border: 1px solid black;
+    display: inline-block;
+    width: 20%;
+}
