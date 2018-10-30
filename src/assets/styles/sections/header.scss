@@ -1,6 +1,6 @@
-.header {
-  background-image: linear-gradient(180deg, #ffffff 0%, #ebf3f4 100%);
-}
+// .header {
+//   background-image: linear-gradient(180deg, #ffffff 0%, #ebf3f4 100%);
+// }
 
 .header__content {
   width: 80%;
@@ -16,6 +16,7 @@
 }
 
 .header__logo-link {
+  color: #35373a;
   text-transform: uppercase;
   font-family: 'Druk-Wide';
   font-weight: 500;
@@ -47,5 +48,6 @@
   height: 100%;
   width: 100%;
   display: block;
+  color: #35373a;
   text-transform: uppercase;
 }
