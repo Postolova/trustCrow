@@ -50,7 +50,7 @@
     display: inline-block;  
     width: 250px;
     height: 350px;
-    box-shadow: 2px 2px 13px grey;
+    box-shadow: 2px 3px 11px grey;
     border-radius: 4px;
     background-color: #fff;
 }
@@ -97,4 +97,8 @@
 .news-title {
     width: 210px;
     line-height: 1.1;
+}
+
+.news__socials-title {
+    color: grey;
 }
