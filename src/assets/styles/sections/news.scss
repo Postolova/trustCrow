@@ -12,6 +12,7 @@
 
 .news__socials-title {
     font-size: 13px;
+    margin-bottom: 10px;
 }
 
 .news-img {
@@ -27,6 +28,7 @@
 .socials__list {
     display: flex;
     justify-content: flex-end;
+    margin: 10px;
 }
 
 .socials__item {
@@ -34,9 +36,9 @@
 }
 
 .socials-icon {
-    width: 32px;
-    height: 32px;
-    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 .block__list {
@@ -60,10 +62,10 @@
 .news__btn {
     background-color: #44bbff;
     color: #fff;
-    border-radius: 3px;
+    border-radius: 4px;
     border: none;
     text-transform: uppercase;
-    padding: 5px 30px;
+    padding: 8px 40px;
     margin-top: 30px;
 }
 
@@ -81,5 +83,16 @@
 .block__content-text {
     border-bottom: 3px solid pink;
     margin-bottom: 15px;
+    font-weight: 600;
+    padding-right: 5px;
+    padding-bottom: 15px;
 }
 
+.block__content-date {
+    color: grey;
+}
+
+.news-title {
+    width: 210px;
+    line-height: 1.1;
+}
