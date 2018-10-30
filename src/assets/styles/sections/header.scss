@@ -17,6 +17,8 @@
 
 .header__logo-link {
   text-transform: uppercase;
+  font-family: 'Druk-Wide';
+  font-weight: 500;
   font-size: rem(15px); // line-height: 1;
   &:first-child {
     margin-left: 1px;
@@ -40,6 +42,8 @@
 }
 
 .header__link {
+  font-family: 'Druk-Wide';
+  font-weight: 500;
   height: 100%;
   width: 100%;
   display: block;
