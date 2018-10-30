@@ -7,14 +7,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .news__socials-title {
     font-size: 13px;
 }
 
+.news-img {
+    width: 100%;
+    &-first {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.socials__list {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .socials__item {
     display: inline-block;
+}
+
+.socials-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
 }
 
 .block__list {
