@@ -6,8 +6,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.footer-copyright {
+    color: #fff;
+    opacity: 0.5;
+}
+
 .footer__top {
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.116);
     height: 60%;
     width: 100%;
     display: flex;
@@ -31,13 +36,23 @@
     padding-top: 20px;
 }
 
+.footer__nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nav-link {
-    color: lightgray;
+    color: #fff;
+    opacity: 0.5;
     margin: 15px;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
+    transition: opacity .3s;
     font-family: "Druk-Wide";
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .nav-item {

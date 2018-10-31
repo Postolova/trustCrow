@@ -2,7 +2,9 @@ footer.footer
     .main-content
         .footer__top
             .footer__top-left
-                +image("footer-logo.png", "alt", "footer-point")
+                a.footer-logo__link(href="#0")
+                    +image("footer-logo.png", "logo", "footer-point")
+            .footer__top-right
                 nav.footer__nav 
                     ul.nav-list
                         li.nav-item
@@ -13,12 +15,8 @@ footer.footer
                             a.nav-link(href="#0") Faq
                         li.nav-item
                             a.nav-link(href="#0") Новости
-            .footer__top-right
-                label.footer__input
-                    span.input-label Оставьте свой номер чтобы подписаться на рассылку:
-                    input.input-text(type="text" placeholder="Введите свой телефон")
-                    button.input-submit(type="submit") +
         .footer__bottom
 
             span.footer-copyright 2019 	&#169; Все права защищены
+            
             +image("point-logo.png", "alt", "footer-point")
