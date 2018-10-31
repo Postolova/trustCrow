@@ -31,6 +31,10 @@
 
 .order__options-title {
     margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: "Druk-Wide";
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .form {
@@ -82,11 +86,13 @@
 .form__select {
     border: 1px solid grey;
     background-color: #fff;
+    color: #1f364a;
 }
 
 .form__area {
     width: 454px;
     height: 100px;
+    resize: none;
 }
 .form__input-file {
     display: none;
