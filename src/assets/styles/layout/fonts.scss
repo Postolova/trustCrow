@@ -7,6 +7,15 @@
   font-display: block;
 }
 
+// Gotham-Pro Font
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url('./assets/fonts/Gotham-Pro/GothamPro-Medium.woff')format('woff'), url('./assets/fonts/Gotham-Pro/GothamPro-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+
 // SourceSansPro Font
 @font-face {
   font-family: 'SourceSansPro';

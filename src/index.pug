@@ -1,17 +1,17 @@
 include ./assets/views/common/_mixins
 <!DOCTYPE html>
 html(lang="ru")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Trustcrow.link
-  body
-    .wrapper
-      main.main
-        include ./assets/views/sections/hero
-
-        include ./assets/views/sections/warranty.pug
-        include ./assets/views/sections/partners
-        include ./assets/views/sections/news
-      include ./assets/views/sections/footer.pug
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Trustcrow.link
+    body
+        .wrapper
+            main.main
+                include ./assets/views/sections/hero
+                include ./assets/views/sections/tariffs
+                include ./assets/views/sections/warranty.pug
+                include ./assets/views/sections/partners
+                include ./assets/views/sections/news
+            include ./assets/views/sections/footer.pug
