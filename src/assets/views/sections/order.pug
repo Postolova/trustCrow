@@ -3,6 +3,7 @@ section.main-section.order
         h1.main-title--white.order__title Заказ крауд-маркетинга
         h5.order__subtitle Заполните форму ниже чтобы заказать услугу. После отправки с вами свяжется менеджер чтобы уточнить детали.
         .order-box
+            form.form(action="")
             aside.order__options
                 .order__options-title Выберите тариф
                 .options
@@ -10,16 +11,24 @@ section.main-section.order
                         li.options__item
                             span.option__item-name Новые темы
                             span.option__item-price 3,5$/1,1$
+                            .option__item-arrow
+                                +icon('right-arrow', 'right-arrow')
                         li.options__item
                             span.option__item-name Обычный 
                             span.option__item-price 4$/1,25$
+                            .option__item-arrow
+                                +icon('right-arrow', 'right-arrow')
                         li.options__item
                             span.option__item-name VIP
                             span.option__item-price 8$/3,5$
+                            .option__item-arrow
+                                +icon('right-arrow', 'right-arrow')
                         li.options__item
                             span.option__item-name Комментарии
                             span.option__item-price 3,5$
-            form.form
+                            .option__item-arrow
+                                +icon('right-arrow', 'right-arrow')
+            .form-main
                 .form-container
                 
                     .form__row
@@ -28,6 +37,8 @@ section.main-section.order
                             input(type="text").form__input
                         label.form__block
                             span.form__title Регион
+                            .form__select-arrow-circle
+                                .form__select-arrow
                             select.form__select.form__input
                                 option(value="ukr") Украина
                                 option(value="bel") Белорусия
@@ -45,18 +56,22 @@ section.main-section.order
                             label.form__block-label
                                 input.form__input.form__input-file(type="file")
                                 .form__filename Перетащите или кликните сюда чтобы выбрать .xls файл
-                    .form__row-radio
-                        label.form__block-radio 
-                            input(type="radio", name="").form__radio
+                    .form__row-checkbox
+                        label.form__block-check 
+                            input(type="checkbox", name="").form__checkbox
+                            .form__checkbox--styling
                             span.form__radio-name Размещение исключительно кликабельных ссылок
-                        label.form__block-radio 
-                            input(type="radio", name="").form__radio
+                        label.form__block-check 
+                            input(type="checkbox", name="").form__checkbox
+                            .form__checkbox--styling
                             span.form__radio-name Использование уникальных площадок без повторов в рамках одного проекта
-                        label.form__block-radio 
-                            input(type="radio", name="").form__radio
+                        label.form__block-check 
+                            input(type="checkbox", name="").form__checkbox
+                            .form__checkbox--styling
                             span.form__radio-name Использование уникальных площадок без повторов из прошлых проектов
-                        label.form__block-radio 
-                            input(type="radio", name="").form__radio
+                        label.form__block-check 
+                            input(type="checkbox", name="").form__checkbox
+                            .form__checkbox--styling
                             span.form__radio-name Размещение в темах где нет не одной ссылки
                     .form__row
                         label.form__block
