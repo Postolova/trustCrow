@@ -1,4 +1,5 @@
 @import '../node_modules/normalize.css/normalize.css';
+@import '../node_modules/swiper/dist/css/swiper.min.css';
 @import './assets/styles/layout/base.scss';
 @import './assets/styles/layout/fonts.scss';
 @import './assets/styles/config/variables.scss';
@@ -6,6 +7,7 @@
 @import './assets/styles/sections/header.scss';
 @import './assets/styles/sections/hero.scss';
 @import './assets/styles/sections/tariffs.scss';
+@import './assets/styles/sections/works.scss';
 @import './assets/styles/sections/warranty.scss';
 @import './assets/styles/sections/order.scss';
 @import './assets/styles/sections/partners.scss';

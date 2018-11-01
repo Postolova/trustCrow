@@ -50,6 +50,7 @@
     "webpack-plugin-critical": "^1.0.0"
   },
   "dependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "swiper": "^4.4.1"
   }
 }
