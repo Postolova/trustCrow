@@ -1,7 +1,11 @@
 section.main-section.faq
     .main-content
-        .bread-crumbs 
-            p.bread-crumb ../../
+        .bread-crumbs
+            ul.bread-crumbs__list
+                li.bread-crumbs__item
+                    +icon('home-icon', 'home-icon__image')
+                li.bread-crumbs__item
+                    a.bread-crumbs__link(href="#0") Faq
         h1.main-title.faq-title Ответы на частые вопросы
         .faq__board
             .questions
