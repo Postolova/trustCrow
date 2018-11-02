@@ -1,0 +1,122 @@
+.faq {
+    background-color: beige;
+    min-height: 600px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.faq-title {
+    width: 100%;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid lightgrey;
+}
+
+.faq__board {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.questions {
+    width: 70%;
+}
+
+.question__item {
+    border-bottom: 3px solid lightgray;
+    margin: 20px 0;
+}
+.answer {
+    padding-bottom: 20px;
+    width: 80%;
+    display: none;
+}
+.question {
+    width: 97%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-rotate {
+    transform: rotate(-45deg);
+    transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.queston-btn__image {
+    width: 21px;
+    height: 21px;
+    fill: grey;
+    transition: transform .4s;
+}
+
+.question-text {
+    color: #000;
+    font-family: "Druk-Wide";
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 80%;
+    display: block;
+
+}
+
+.faq__form {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+.faq__form-title {
+    font-family: "Druk-Wide";
+    font-size: 16px;
+    color: rgba(73, 51, 51, 0.473);
+}
+
+.faq__form-subtitle {
+    color: black;
+}
+
+.faq-label {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin: 15px 0;
+}
+
+.faq-name {
+    margin-bottom: 5px;
+}
+
+.faq-input {
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border: 1px solid lightgrey;
+}
+
+.faq-area {
+    height: 100px;
+    resize: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.faq-submit {
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: 'Druk-Wide';
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #44bbff;
+    color: #ffffff;
+    font-size: 12px;
+    transition: all .1s;
+
+    &:hover {
+        background-color: #31dbff;
+        box-shadow: 1px 1px 7px #44bbff;
+    }
+}

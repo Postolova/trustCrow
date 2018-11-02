@@ -1,6 +1,6 @@
 import './index.scss';
 import { worksSwiper } from './assets/js/works';
-
+import './assets/js/faq.js';
 // For All SVG
 function requireAll(r) {
   r.keys().forEach(r);
