@@ -6,19 +6,18 @@ section.main-section.works
             aside.works__aside
             .works__slider.swiper-container
                 .swiper-wrapper
-                    .swiper-slide 
-                        .works__pic 
-                            img.works__img(src="https://i.7fon.org/thumb/g783607.jpg", alt="alt")
-                        .works__desc text 1
-                    .swiper-slide 
+                    .works__item.swiper-slide
                         .works__pic
-                            img.works__img(src="https://avatars.mds.yandex.net/get-pdb/69339/ea8657c2-e636-43b1-83ce-451f8e264f21/s1200?webp=false", alt="alt")
-                        .works__desc text 2
-                    .swiper-slide 
+                            +image("review-pic.png", "alt", "work__slider-img")
+                            .works__desc text 1
+                    .works__item.swiper-slide
                         .works__pic
-                            img.works__img(src="http://img0.liveinternet.ru/images/attach/c/8/99/121/99121064_large_3166706_13500666150046690www_nevsepic_com_ua.jpg", alt="alt")
-                        .works__desc text 3
-                .right-col
+                            +image("review-pic.png", "alt", "work__slider-img")
+                            .works__desc text 
+                    .works__item.swiper-slide
+                        .works__pic
+                            +image("review-pic.png", "alt", "work__slider-img")
+                            .works__desc text 
                 .swiper-pagination
                 .works__slider-button-box
                     button.works__slider-button.works__slider-button-prev(type="button") prev

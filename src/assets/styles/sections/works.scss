@@ -18,26 +18,25 @@
     margin-right: 20px;
 }
 
-.right-col {
-    width: 30%;
-}
 
 .works__pic {
-    width: 70%;
+    // width: 80%;
+    display: flex;
 }
 
-.works__img {
-    width: 100%;
+.work__slider-img {
+    width: 80%;
     height: 100%;
     object-fit: contain;
 }
 
-// .works__desc {
-//     position: absolute;
-//     top: 0;
-//     right: 0px;
-//     width: 20%;
-// }
+.works__desc {
+    // position: absolute;
+    // top: 0;
+    // right: 0px;
+    width: 20%;
+}
+
 .works__pagination {
     position: absolute;
     bottom: 0;
