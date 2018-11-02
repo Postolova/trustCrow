@@ -22,9 +22,9 @@ html(lang="ru")
                                 li.header__item
                                     a.header__link(href="#0") тарифы
                                 li.header__item
-                                    a.header__link.active-link(href="faq.html") faq
+                                    a.header__link(href="faq.html") faq
                                 li.header__item
-                                    a.header__link(href="news.html") новости
-                include ./assets/views/sections/faq-section.pug
+                                    a.header__link(href="news.html").active-link новости
+                include ./assets/views/sections/news-page.pug
                     
             include ./assets/views/sections/footer.pug

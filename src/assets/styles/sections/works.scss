@@ -2,7 +2,7 @@
     background-color: #f4f4f4; // height: 600px;
     height: 100%;
     text-align: center;
-    padding-bottom: 80px;
+    padding: 70px 0 45px 0;
 }
 
 .works__slider-box {
@@ -72,7 +72,6 @@
     z-index: 99;
     display: flex;
     flex-direction: column;
-    color: #35373a;
 }
 
 .works__slider-button {
@@ -81,4 +80,19 @@
     border-radius: 4px;
     background-color: #ffffff;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Druk-Wide";
+    font-size: 12px;
+    font-weight: 500;
+    color: #35373a;
+    opacity: .5;
+    text-align: right;
+    padding-right: 20px;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.works__slider-button-prev {
+    background-color: rgba(0, 0, 0, 0.05);
 }
