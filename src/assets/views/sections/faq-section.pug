@@ -3,9 +3,10 @@ section.main-section.faq
         .bread-crumbs
             ul.bread-crumbs__list
                 li.bread-crumbs__item
-                    +icon('home-icon', 'home-icon__image')
+                    a.home-btn(href="index.html")
+                        +icon('home-icon', 'home-icon__image')
                 li.bread-crumbs__item
-                    a.bread-crumbs__link(href="#0") Faq
+                    p.bread-crumbs__link.uppercase-link Faq
         h1.main-title.faq-title Ответы на частые вопросы
         .faq__board
             .questions

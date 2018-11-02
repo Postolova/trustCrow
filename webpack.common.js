@@ -64,6 +64,10 @@ module.exports = {
       template: './src/faq.pug',
       filename: 'faq.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/news.pug',
+      filename: 'news.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: path.resolve(__dirname, 'static/'),

@@ -148,7 +148,6 @@
     opacity: 0.5;
 }
 .bread-crumbs__item {
-    text-transform: uppercase;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -171,3 +170,6 @@
 }
 
 
+.uppercase-link {
+    text-transform: uppercase;
+}
