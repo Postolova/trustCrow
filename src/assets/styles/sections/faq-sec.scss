@@ -8,6 +8,10 @@
 .header__faq {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     z-index: 100;
+    @include phones {
+        box-shadow: 0 0;
+        border-bottom: 1px solid lightgrey;
+    }
 }
 
 .faq-title {
@@ -15,6 +19,10 @@
     margin: 30px 0;
     padding-bottom: 30px;
     border-bottom: 3px solid lightgrey;
+    @include phones {
+        margin: 0;
+        font-size: 26px;
+    }
 }
 
 .faq__board {
@@ -26,6 +34,9 @@
 
 .questions {
     width: 65%;
+    @include phones {
+        width: 100%;
+    }
 }
 
 .question__item {
@@ -37,9 +48,14 @@
     padding-bottom: 20px;
     width: 80%;
     display: none;
+    padding-top: 10px;
 }
 
 .answer--active {
+    display: block;
+}
+
+.answer--active + .answer {
     display: block;
 }
 
@@ -48,11 +64,21 @@
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    @include phones {
+        width: 100%;
+    }
 }
 
 .image-rotate {
     transform: rotate(-45deg);
     transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.question-btn {
+    position: absolute;
+    right: -2%;
 }
 
 .queston-btn__image {
@@ -70,6 +96,10 @@
     width: 80%;
     font-weight: 500;
     display: block;
+    @include phones {
+        width: 90%;
+        font-size: 12px;
+    }
 }
 
 .faq__form {
@@ -78,6 +108,9 @@
     padding: 20px;
     border: 1px solid lightgrey;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    @include phones {
+        display: none;
+    }
 }
 
 .faq__form-title {
@@ -142,6 +175,9 @@
 
 .bread-crumbs__list {
     display: flex;
+    @include phones {
+        display: none;
+    }
 }
 .bread-crumbs__link {
     color: #35373a;

@@ -6,11 +6,14 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title FAQ
+
     body
         .wrapper
             main.main
                 header.header.header__faq
                     .header__content
+                        .popup-menu
+                            +icon('close-btn', 'close-btn')
                         .header__logo
                             a.header__logo-link(href="index.html") 
                                 div trustcrow
@@ -25,6 +28,11 @@ html(lang="ru")
                                     a.header__link.active-link(href="faq.html") faq
                                 li.header__item
                                     a.header__link(href="news.html") новости
+                        .hamburger
+                            .hamburger__button
+                                .line
+                                .line
+                                .line
                 include ./assets/views/sections/faq-section.pug
                     
             include ./assets/views/sections/footer.pug
