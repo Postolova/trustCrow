@@ -3,6 +3,10 @@
     background-image: url('./assets/images/hero-gradient-bg.png');
     background-position-x: 15%;
     min-height: 680px;
+    @include phones {
+        background-image: url('./assets/images/hero-mobile.png');
+        min-height: 565px;
+    }
 }
 
 .hero__container {
@@ -15,6 +19,10 @@
 
 .title-hero {
     margin-top: 140px;
+    @include phones {
+        margin: 0;
+        font-size: 27px;
+    }
 }
 
 .hero__subtitle {
@@ -27,6 +35,9 @@
 .hero__subtitle--add-text {
     font-size: 24px;
     font-weight: 400;
+    @include phones {
+        font-size: 21px;
+    }
 }
 
 .hero__button {

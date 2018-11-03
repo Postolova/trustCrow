@@ -58,13 +58,11 @@ address {
 }
 
 :valid {
-    color: green;
-    outline-color: green;
+    border: 1px solid #31baff;
 }
 
 :invalid {
-    color: lightcoral;
-    outline-color: red;
+    border: 2px solid #ff9292;
 }
 
 // instead of display: none;
@@ -102,6 +100,9 @@ address {
 .main-content {
     width: 80%;
     margin: 0 auto;
+/*     @include phones {
+        width: 90%;
+    } */
 }
 
 .main-title {
@@ -117,3 +118,4 @@ address {
     color: #fff;
     font-size: 38px;
 }
+

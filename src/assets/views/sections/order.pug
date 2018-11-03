@@ -8,47 +8,30 @@ section.main-section.order
                     .order__options-title Выберите тариф
                     .options
                         ul.options__list
-                            //-li.options__item
-                            //-    span.option__item-name Новые темы
-                            //-    span.option__item-price 3,5$/1,1$
-                            //-    .option__item-arrow
-                            //-        +icon('right-arrow', 'right-arrow')
-                            //-li.options__item
-                            //-    span.option__item-name Обычный 
-                            //-    span.option__item-price 4$/1,25$
-                            //-    .option__item-arrow
-                            //-        +icon('right-arrow', 'right-arrow')
-                            //-li.options__item
-                            //-    span.option__item-name VIP
-                            //-    span.option__item-price 8$/3,5$
-                            //-    .option__item-arrow
-                            //-        +icon('right-arrow', 'right-arrow')
-                            //-li.options__item
-                            //-    span.option__item-name Комментарии
-                            //-    span.option__item-price 3,5$
-                            //-    .option__item-arrow
-                            //-        +icon('right-arrow', 'right-arrow')
                             li.options__item
-                                input.option__item-tariff(type="radio", name="radio")
-                                .option__item-tariff--styling
-                                    span.option__item-name Новые темы
-                                    span.option__item-price 3,5$/1,1$
+                                label.option__label
+                                    input.option__item-tariff(type="radio", name="radio" checked)
+                                    .option__item-tariff--styling
+                                        span.option__item-name Новые темы
+                                        span.option__item-price 3,5$/1,1$
                             li.options__item
-                                input.option__item-tariff(type="radio", name="radio")
-                                .option__item-tariff--styling
-                                    span.option__item-name Обычный 
-                                    span.option__item-price 4$/1,25$
+                                label.option__label
+                                    input.option__item-tariff(type="radio", name="radio")
+                                    .option__item-tariff--styling
+                                        span.option__item-name Обычный 
+                                        span.option__item-price 4$/1,25$
                             li.options__item
-                                input.option__item-tariff(type="radio", name="radio")
-                                .option__item-tariff--styling
-                                    span.option__item-name VIP
-                                    span.option__item-price 8$/3,5$
+                                label.option__label
+                                    input.option__item-tariff(type="radio", name="radio")
+                                    .option__item-tariff--styling
+                                        span.option__item-name VIP
+                                        span.option__item-price 8$/3,5$
                             li.options__item
-                                input.option__item-tariff(type="radio", name="radio")
-                                .option__item-tariff--styling
-                                    span.option__item-name Комментарии
-                                    span.option__item-price 3,5$
-                            
+                                label.option__label
+                                    input.option__item-tariff(type="radio", name="radio")
+                                    .option__item-tariff--styling
+                                        span.option__item-name Комментарии
+                                        span.option__item-price 3,5$
                 .form-main
                     .form-container
                         .form__row
@@ -81,18 +64,22 @@ section.main-section.order
                                 input(type="checkbox", name="").form__checkbox
                                 .form__checkbox--styling
                                 span.form__radio-name Размещение исключительно кликабельных ссылок
+                                    span.form__radio-percent +20% к стоимости
                             label.form__block-check 
                                 input(type="checkbox", name="").form__checkbox
                                 .form__checkbox--styling
                                 span.form__radio-name Использование уникальных площадок без повторов в рамках одного проекта
+                                    span.form__radio-percent +25% к стоимости
                             label.form__block-check 
                                 input(type="checkbox", name="").form__checkbox
                                 .form__checkbox--styling
                                 span.form__radio-name Использование уникальных площадок без повторов из прошлых проектов
+                                    span.form__radio-percent +30% к стоимости
                             label.form__block-check 
                                 input(type="checkbox", name="").form__checkbox
                                 .form__checkbox--styling
                                 span.form__radio-name Размещение в темах где нет не одной ссылки
+                                    span.form__radio-percent +30% к стоимости
                         .form__row
                             label.form__block
                                 span.form__title Имя
