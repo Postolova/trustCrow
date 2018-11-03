@@ -11,10 +11,23 @@
     justify-content: space-between;
 }
 
-.works__aside {
+.works__tabs {
     min-width: 180px;
     background-color: lightskyblue;
 }
+
+.works__tabs-rbtn {
+    display: none;
+}
+.works__tabs-rbtn--styling {
+    display: block;
+    width: 180px;
+    height: 50px;
+    background-color: #31baff;
+    font-size: 12px;
+    text-align: center;
+}
+
 
 .works__slider-item {
     display: flex;
