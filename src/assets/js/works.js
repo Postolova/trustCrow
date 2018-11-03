@@ -8,7 +8,6 @@ export const worksSwiper = new Swiper('.swiper-container', {
   grabCursor: true,
   allowTouchMove: true,
   touchEventsTarget: '.swiper-container',
-
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
