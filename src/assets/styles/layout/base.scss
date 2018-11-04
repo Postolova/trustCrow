@@ -94,15 +94,15 @@ address {
 
 .main-section {
     width: 100%;
-    padding: rem(30px) 0;
+    padding-bottom: rem(30px);
 }
 
 .main-content {
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
     @include phones {
         width: 90%;
+        overflow: hidden;
     }
 }
 
