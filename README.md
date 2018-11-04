@@ -3,7 +3,7 @@ README.md
 ## TrustCrow 2018
 
 #### Для работы сборки у Вас должны быть установлены
-* npm, node 11.0.0
+* npm
 #### Как установить проект
 1. git clone https://github.com/egorov-by-egorov/trustCrow.git
 2. Перейти в папку trustcrow.
