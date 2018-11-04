@@ -59,9 +59,14 @@
     display: block;
 }
 
+.answer--active + .question-btn__image {
+    transform: rotate(-45deg);
+    transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 .question {
     width: 97%;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -82,8 +87,8 @@
 }
 
 .queston-btn__image {
-    width: 24px;
-    height: 24px;
+    width: rem(24px);
+    height: rem(24px);
     fill: #3fad89;
     transition: transform .4s;
 }
@@ -91,21 +96,22 @@
 .question-text {
     color: #35373a;
     font-family: "Druk-Wide";
-    font-size: 14px;
+    font-size: rem(14px);
     text-transform: uppercase;
-    width: 80%;
+    width: 100%;
     font-weight: 500;
     display: block;
     @include phones {
         width: 90%;
-        font-size: 12px;
+        font-size: rem(12px);
     }
 }
 
 .faq__form {
     width: 30%;
+    height: 100%;
     background-color: #fff;
-    padding: 20px;
+    padding: rem(20px);
     border: 1px solid lightgrey;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     @include phones {
@@ -115,7 +121,7 @@
 
 .faq__form-title {
     font-family: "Druk-Wide";
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: 500;
     color: #1f364a;
 }
@@ -128,39 +134,39 @@
     display: flex;
     flex-direction: column;
     color: #35373a;
-    margin: 15px 0;
+    margin: rem(15px) 0;
 }
 
 .faq-name {
-    margin-bottom: 5px;
+    margin-bottom: rem(5px);
     font-weight: 600;
-    font-size: 14px;
+    font-size: rem(14px);
 }
 
 .faq-input {
-    height: 50px;
-    border-radius: 4px;
-    padding-left: 10px;
+    height: rem(50px);
+    border-radius: rem(4px);
+    padding-left: rem(10px);
     border: 1px solid lightgrey;
 }
 
 .faq-area {
-    height: 100px;
+    height: rem(100px);
     resize: none;
-    border-radius: 4px;
-    padding: 10px;
+    border-radius: rem(4px);
+    padding: rem(10px);
 }
 
 .faq-submit {
     width: 100%;
-    height: 50px;
+    height: rem(50px);
     text-transform: uppercase;
     font-family: 'Druk-Wide';
     font-weight: 500;
     border-radius: 4px;
     background-color: #44bbff;
     color: #ffffff;
-    font-size: 12px;
+    font-size: rem(12px);
     transition: all .1s;
     &:hover {
         background-color: #31dbff;
@@ -169,8 +175,8 @@
 }
 
 .home-icon__image {
-    width: 13px;
-    height: 13px;
+    width: rem(13px);
+    height: rem(13px);
 }
 
 .bread-crumbs__list {
@@ -184,7 +190,7 @@
     opacity: 0.5;
 }
 .bread-crumbs__item {
-    font-size: 12px;
+    font-size: rem(12px);
     display: flex;
     align-items: center;
     &:last-child {
@@ -195,16 +201,15 @@
     &:after {
         content: "";
         display: inline-block;
-        width: 4px;
-        height: 4px;
-        margin: 0 10px;
+        width: rem(4px);
+        height: rem(4px);
+        margin: 0 rem(10px);
         background-color: #333589;
         border-radius: 50%;
         vertical-align: middle;
         opacity: 0.5;
     }
 }
-
 
 .uppercase-link {
     text-transform: uppercase;

@@ -1,10 +1,8 @@
 let panelItem = document.querySelectorAll('.question-text');
 let active = document.getElementsByClassName('.answer--active');
-// eslint-disable-next-line no-unused-vars
-let btnPlus = document.getElementsByClassName('.queston-btn__image');
 
-Array.from(panelItem).forEach(function(item, i, panelItem) {
-  item.addEventListener('click', function(e) {
+Array.from(panelItem).forEach(function(item) {
+  item.addEventListener('click', function() {
     if (active.length > 0 && active[0] !== this) {
       active[0].classList.remove('answer--active');
     }
@@ -12,17 +10,14 @@ Array.from(panelItem).forEach(function(item, i, panelItem) {
   });
 });
 
-/* for (let i = 0; i < questionItems.length; i++) {
-  // eslint-disable-next-line no-unused-vars
-  // eslint-disable-next-line no-undef
-  // eslint-disable-next-line no-unused-vars
-  const elem = questionItems[i];
-  elem.addEventListener('click', function() {
-    btnClose.classList.toggle('image-rotate');
-  });
+/* function getIcons() {
+  for (var i = 0; i < panelItem.length; i++) {
+    let element = panelItem[i];
+    let nextEl = element.nextSibling;
+    let plusButton = nextEl.nextSibling;
+  }
 }
- */
-
+getIcons(); */
 const openBTN = document.querySelector('.hamburger');
 const closeBTN = document.querySelector('.close-btn');
 const links = document.querySelector('.header__list');
