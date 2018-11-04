@@ -5,8 +5,10 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
+const sourceMap = true;
 
 module.exports = merge(common, {
+  devtool: sourceMap && 'source-map',
   module: {
     rules: [
       {
@@ -35,10 +37,6 @@ module.exports = merge(common, {
             loader: 'css-loader'
           },
           {
-            loader: 'group-css-media-queries-loader',
-            options: { sourceMap: false }
-          },
-          {
             loader: 'postcss-loader',
             options: {
               plugins: [
@@ -54,7 +52,7 @@ module.exports = merge(common, {
         ]
       },
       {
-        test: /\.(gif|jpe?g|png|webp)$/,
+        test: /\.(gif|jpe?g|svg|png|webp)$/,
         use: [
           {
             loader: 'file-loader',

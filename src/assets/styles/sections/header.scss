@@ -7,6 +7,9 @@
 .header {
     position: relative;
     margin-bottom: rem(140px);
+    &__faq {
+        margin-bottom: 0;
+    }
 }
 
 .popup-menu {
