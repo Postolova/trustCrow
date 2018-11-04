@@ -1,5 +1,5 @@
 .works {
-    padding: 70px 0 45px 0;
+    padding: rem(70px) 0 rem(45px) 0;
     height: 100%;
     background-color: #f4f4f4;
     text-align: center;
@@ -9,7 +9,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 500px;
+    min-height: rem(500px);
 }
 
 .works__tabs-rbtn {
@@ -23,18 +23,18 @@
 
 .works__tabs-rbtn--styling {
     display: block;
-    margin-bottom: 10px;
-    padding-top: 13px;
-    min-width: 180px;
-    max-width: 180px;
-    height: 40px;
+    margin-bottom: rem(10px);
+    padding-top: rem(13px);
+    min-width: rem(180px);
+    max-width: rem(180px);
+    height: rem(40px);
     border-radius: 4px;
     background-color: #fff;
     color: #35373a;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 12px;
+    font-size: rem(12px);
     font-family: "Druk-Wide";
     cursor: pointer;
 }
@@ -72,44 +72,42 @@
 .works__slider-description {
     display: flex;
     flex-direction: column;
-    min-width: 180px;
-    max-width: 180px;
+    min-width: rem(180px);
+    max-width: rem(180px);
     text-align: left;
 }
 
 .works__slider-desc {
     color: #5d6368;
     font-weight: 400;
-    font-size: 14px;
+    font-size: rem(14px);
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
 }
 
 .works__slider-title {
     color: rgba(0, 0, 0, 0.400);
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 400;
 }
 
 .works__slider-subtitle {
     color: #3fad89;
     font-family: "Druk-Wide";
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 500;
 }
 
 .works__pagination {
     position: absolute;
-    // right: 50%;
     bottom: -5px!important;
     z-index: 99;
-    // transform: translateX(-50%);
 }
 
 .works__bullet {
     display: inline-block;
-    margin-right: 10px;
-    width: 40px;
+    margin-right: rem(10px);
+    width: rem(40px);
     height: 4px;
     border-radius: 4px;
     background-color: #000000;
@@ -131,17 +129,17 @@
 }
 
 .works__slider-button {
-    margin-bottom: 10px;
-    padding-right: 20px;
-    width: 180px;
-    height: 40px;
+    margin-bottom: rem(10px);
+    padding-right: rem(20px);
+    width: rem(180px);
+    height: rem(40px);
     border-radius: 4px;
     background-color: #ffffff;
     color: #35373a;
     text-align: right;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 12px;
+    font-size: rem(12px);
     font-family: "Druk-Wide";
     opacity: .5;
     &:hover {

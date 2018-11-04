@@ -1,5 +1,5 @@
 .footer {
-    height: 160px;
+    height: rem(160px);
     width: 100%;
     background-color: #333589;
     color: lightgray;
@@ -10,7 +10,7 @@
     color: #fff;
     opacity: 0.5;
     @include phones {
-        font-size: 10px;
+        font-size: rem(10px);
     }
 }
 
@@ -19,7 +19,7 @@
     height: 60%;
     width: 100%;
     display: flex;
-    padding: 30px 0;
+    padding: rem(30px) 0;
     &-left {
         width: 50%;
         display: flex;
@@ -38,8 +38,8 @@
     height: 40%;
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    padding-top: 20px;
+    font-size: rem(12px);
+    padding-top: rem(20px);
 }
 
 .footer__nav {
@@ -48,14 +48,16 @@
 }
 
 .nav-link {
+    display: block;
+    width: 100%;
+    height: 100%;
     color: #fff;
     opacity: 0.5;
-    margin: 15px;
     text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-    transition: opacity .3s;
     font-family: "Druk-Wide";
+    font-weight: 400;
+    font-size: rem(12px);
+    transition: opacity .3s;
     &:hover {
         opacity: 1;
     }
@@ -63,6 +65,10 @@
 
 .nav-item {
     display: inline-block;
+    margin-right: rem(15px);
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .footer__input {
@@ -72,27 +78,27 @@
 }
 
 .input-label {
-    width: 220px;
+    width: rem(220px);
     display: block;
-    font-size: 12px;
+    font-size: rem(12px);
 }
 
 .input-text {
     border-radius: 5px;
-    padding: 12px;
+    padding: rem(12px);
     border: none;
-    font-size: 13px;
-    width: 200px;
-    margin-right: 10px;
-    height: 40px;
+    font-size: rem(13px);
+    width: rem(200px);
+    margin-right: rem(10px);
+    height: rem(40px);
 }
 
 .input-submit {
-    width: 40px;
-    height: 40px;
+    width: rem(40px);
+    height: rem(40px);
     border-radius: 5px;
     background-color: lightblue;
     color: #fff;
     font-family: "Druk-Wide";
-    font-size: 25px;
+    font-size: rem(25px);
 }

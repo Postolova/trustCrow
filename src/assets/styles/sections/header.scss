@@ -6,19 +6,20 @@
 
 .header {
     position: relative;
+    margin-bottom: rem(140px);
 }
 
 .popup-menu {
-    width: 300px;
+    width: 90%;
     position: absolute;
-    height: 300px;
-    top: -900px;
+    height: rem(300px);
+    top: -9999px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    font-size: 12px;
+    font-size: rem(12px);
     font-weight: 500;
     transition: height .7s;
 }
@@ -33,9 +34,10 @@
 
 .close-btn {
     position: absolute;
-    width: 40px;
-    top: -99px;
-    right: 17px;
+    width: rem(40px);
+    height: rem(40px);
+    top: -44px;
+    right: 22px;
 }
 
 .popup-menu--active {
@@ -51,8 +53,8 @@
 }
 
 .hamburger__button {
-    width: 40px;
-    height: 40px;
+    width: rem(40px);
+    height: rem(40px);
     border: 1px solid #eee;
     border-radius: 50%;
     display: flex;
@@ -62,7 +64,7 @@
 }
 
 .line {
-    width: 20px;
+    width: re,(20px);
     height: 2px;
     border-radius: 1px;
     background-color: #3fad89;
@@ -78,8 +80,8 @@
 }
 
 .header__logo {
-    margin-right: 81px;
-    width: 135px;
+    margin-right: rem(81px);
+    width: rem(135px);
 }
 
 .header__logo-link {
@@ -102,8 +104,8 @@
 }
 
 .header__item {
-    margin-right: 40px;
-    font-size: 12px;
+    margin-right: rem(40px);
+    font-size: rem(12px);
     position: relative;
     &:last-child {
         margin-right: 0;
@@ -116,9 +118,6 @@
 .header__link {
     font-family: 'Druk-Wide';
     font-weight: 500;
-    height: 100%;
-    width: 100%;
-    display: block;
     color: #35373a;
     text-transform: uppercase;
     position: relative;
@@ -127,10 +126,10 @@
             content: "";
             display: block;
             position: absolute;
-            top: -36px;
+            top: rem(-36px);
             left: 50%;
             transform: translateX(-50%);
-            width: 100px;
+            width: rem(100px);
             height: 5px;
             background-color: #333589;
             border-radius: 0 0 5px 5px;
@@ -149,10 +148,9 @@
         top: -36px;
         left: 50%;
         transform: translateX(-50%);
-        width: 80px;
+        width: rem(80px);
         height: 5px;
         background-color: #333589;
         border-radius: 0 0 5px 5px;
     }
 }
-

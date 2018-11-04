@@ -1,6 +1,6 @@
 .warranty {
     background-color: #fff;
-    padding: 60px 0 50px 0;
+    padding: rem(60px) 0 rem(50px) 0;
 }
 
 
@@ -9,15 +9,15 @@
 }
 
 .warranty-subtitle {
-    width: 600px;
-    margin: 20px auto;
+    width: rem(600px);
+    margin: rem(20px) auto;
 }
 
 .features__list {
-    margin: 40px 0;
+    margin: rem(40px) 0;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: rem(30px);
+    padding-bottom: rem(30px);
     display: flex;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
@@ -26,12 +26,12 @@
 .features__item {
     display: inline-block;
     width: 25%;
-    padding-right: 12px;
-    font-size: 16px;
+    padding-right: rem(12px);
+    font-size: rem(16px);
     &:first-child {
         margin-left: 0;
     }
-    margin-left: 30px;
+    margin-left: rem(30px);
     border-right: 2px solid lightgrey;
     &:nth-child(4) {
         border: none;
@@ -41,22 +41,22 @@
 
 .features__name {
     font-family: 'Druk-Wide';
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: rem(14px);
+    margin-bottom: rem(20px);
     color: #3fad89;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 .features__desc {
-    font-size: 14px;
+    font-size: rem(14px);
     color: #35373a;
 }
 
 .steps__title {
     font-family: "Druk-Wide";
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: rem(30px);
 }
 
 .steps__link {
@@ -68,13 +68,13 @@
     display: flex;
     justify-content:  space-between;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: rem(40px);
 }
 
 .steps__item {
     display: inline-block;
     width: 22%;
-    padding: 15px;
+    padding: rem(15px);
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
@@ -85,20 +85,20 @@
 
 .steps__number {
     color: #333589;
-    font-size: 24px;
+    font-size: rem(24px);
     font-family: "Druk-Wide";
 }
 
 .steps__desc {
     font-weight: 600;
-    font-style: 18px;
+    font-size: rem(18px);
     line-height: 28px;
     color: #35373a;
 }
 
 .payment {
     width: 75%;
-    margin: 40px auto;
+    margin: rem(40px) auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -107,14 +107,14 @@
 .payment__title {
     font-family: "Druk-Wide";
     color: grey;
-    font-size: 24px;
-    width: 200px;
+    font-size: rem(24px);
+    width: rem(200px);
 }
 
 .payment__pic {
     width: 50%;
     &:nth-child(1) {
-        margin-right: 40px;
+        margin-right: rem(40px);
     }
 }
 

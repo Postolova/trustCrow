@@ -100,9 +100,10 @@ address {
 .main-content {
     width: 80%;
     margin: 0 auto;
-/*     @include phones {
+    overflow: hidden;
+    @include phones {
         width: 90%;
-    } */
+    }
 }
 
 .main-title {

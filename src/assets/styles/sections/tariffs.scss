@@ -1,18 +1,18 @@
 .tariffs {
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: rem(80px);
 }
 
 .tariffs__header {
     border-bottom: 1px solid #35373a7e;
-    margin-bottom: 60px;
+    margin-bottom: rem(60px);
 }
 
 .tariffs__header-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 60px 0;
+    margin: rem(60px) 0;
     text-align: left;
 }
 
@@ -23,50 +23,49 @@
 }
 
 .tariffs__header-icon {
-    margin-right: 25px;
+    margin-right: rem(25px);
     &:last-child {
         margin-right: 0;
     }
 }
 
 .tariffs__header-img {
-    width: 50px;
-    height: 55px;
+    width: rem(50px);
+    height: rem(55px);
 }
 
 .tariffs__header-desc {
-    font-size: 16px;
     font-weight: 600;
 }
 
 .tariffs__subtitle {
     width: 60%;
-    height: 58px;
+    height: rem(58px);
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: rem(60px);
     color: #5d6368;
-    font-size: 20px;
+    font-size: rem(20px);
     font-weight: 400;
 }
 
 .tariffs__box {
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: rem(70px);
 }
 
 .tariffs__forum {
     width: 70%;
-    margin-right: 10px;
+    margin-right: rem(10px);
 }
 
 .tariffs__forum-title {
-    min-height: 50px;
+    min-height: rem(50px);
     border-radius: 4px;
     background-color: #3fad881b;
-    padding: 17px 0;
+    padding: rem(17px) 0;
     margin-bottom: 10px;
     color: #3fad89;
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Druk-Wide';
@@ -79,10 +78,10 @@
 
 .tariffs__forum-item {
     width: 32%;
-    margin-right: 10px;
+    margin-right: rem(10px);
     border-radius: 4px;
     background-color: #f8f8f8;
-    padding: 30px 10px 10px 10px;
+    padding: rem(30px) rem(10px) rem(10px) rem(10px);
     &:last-child {
         margin-right: 0;
     }
@@ -97,19 +96,19 @@
         height: 4px;
         border-radius: 4px;
         background-color: #eeeeee;
-        margin: 13px 0px 18px 0px;
+        margin: rem(13px) 0px rem(18px) 0px;
     }
 }
 
 .tariffs__item-popular {
     position: absolute;
-    top: 20px;
-    left: -58px;
-    width: 123px;
-    height: 23px;
+    top: rem(20px);
+    left: rem(-58px);
+    width: rem(123px);
+    height: rem(23px);
     text-transform: uppercase;
     color: #fff;
-    font-size: 12px;
+    font-size: rem(12px);
     font-weight: 500;
     font-family: 'Gotham-Pro';
     line-height: 2;
@@ -119,9 +118,9 @@
 }
 
 .tariffs__item-icon {
-    margin-bottom: 15px;
+    margin-bottom: rem(15px);
     width: 100%;
-    height: 100px;
+    height: rem(100px);
 }
 
 .tariffs__header-img {
@@ -134,22 +133,22 @@
     opacity: 0.2;
     color: #000000;
     font-family: 'Druk-Wide';
-    font-size: 12px;
+    font-size: rem(12px);
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .tariffs__item-name {
     color: #3fad89;
-    font-size: 22px;
+    font-size: rem(22px);
     font-weight: 400;
 }
 
 .tariffs__item-price {
     color: #35373a;
-    font-size: 32px;
+    font-size: rem(32px);
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: rem(40px);
 }
 
 .tariffs__item-desc {
@@ -157,30 +156,30 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #fff;
-    padding: 20px 5px 40px 15px;
+    padding: rem(20px) rem(5px) rem(40px) rem(15px);
     border-radius: 4px;
 }
 
 .tariffs__item-list {
     display: list-item;
-    min-height: 400px;
+    min-height: rem(400px);
     padding-right: 3px;
 }
 
 .tariffs__item-item {
     display: flex;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: rem(10px);
     color: #35373a;
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 400;
     line-height: 20px;
     &::before {
         display: block;
         content: '';
-        min-width: 8px;
-        height: 8px;
-        margin: 7px 10px 0 0;
+        min-width: rem(8px);
+        height: rem(8px);
+        margin: rem(7px) rem(10px) 0 0;
         border-radius: 50%;
         border: 2px solid #3fad89;
     }
@@ -194,15 +193,15 @@
     font-family: 'Druk-Wide';
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: rem(12px);
     color: #fff;
-    height: 40px;
+    height: rem(40px);
     border-radius: 4px;
     background-color: #44bbff;
     transition: all 0.1s;
     &:hover {
         background-color: #31dbff;
-        box-shadow: 1px 1px 7px #44bbff;
+        box-shadow: 1px 1px rem(7px) #44bbff;
     }
 }
 
@@ -213,7 +212,7 @@
     height: 4px;
     border-radius: 4px;
     background-color: #eeeeee;
-    margin-bottom: 30px;
+    margin-bottom: rem(30px);
 }
 
 .tariffs__comments {
@@ -221,13 +220,13 @@
 }
 
 .tariffs__comments-title {
-    min-height: 50px;
+    min-height: rem(50px);
     border-radius: 4px;
     background-color: #3f46ad1b;
-    padding: 17px 0;
-    font-size: 14px;
+    padding: rem(17px) 0;
+    font-size: rem(14px);
     color: #333589;
-    margin-bottom: 10px;
+    margin-bottom: rem(10px);
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Druk-Wide';
@@ -237,15 +236,15 @@
     border-radius: 4px;
     border: 1px solid #ededed;
     background-color: #fff;
-    padding: 30px 10px 50px 10px;
+    padding: rem(30px) rem(10px) rem(50px) rem(10px);
 }
 
 .tariffs__comments-list {
     border-radius: 4px;
     background-color: #f6f6f6;
-    padding: 20px 5px 40px 15px;
-    margin-bottom: 33px;
-    min-height: 420px;
+    padding: rem(20px) rem(5px) rem(40px) rem(15px);
+    margin-bottom: rem(33px);
+    min-height: rem(420px);
 }
 
 .tariffs__addServices {
@@ -255,22 +254,22 @@
 .services-title {
     color: #1f364a;
     font-family: 'Druk-Wide';
-    font-size: 24px;
+    font-size: rem(24px);
     font-weight: 500;
-    margin-bottom: 19px;
+    margin-bottom: rem(19px);
 }
 
 .services-subtitle {
-    width: 550px;
-    height: 53px;
+    width: rem(550px);
+    height: rem(53px);
     color: #5d6368;
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: rem(30px);
 }
 
 .steps__top {
-    min-height: 130px;
+    min-height: rem(130px);
 }
 
 .steps-line {
@@ -279,18 +278,18 @@
     height: 4px;
     border-radius: 4px;
     background-color: #eeeeee;
-    margin: 0px 0 20px 0;
+    margin-bottom: rem(20px);
 }
 
 .step__sale {
-    width: 76px;
-    height: 51px;
+    width: rem(76px);
+    height: rem(51px);
     font-weight: 400;
-    font-size: 14px;
+    font-size: rem(14px);
 }
 
 .steps__num {
-    font-size: 28px;
+    font-size: rem(28px);
     color: #3fad89;
 }
 

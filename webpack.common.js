@@ -10,7 +10,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.[chunkhash].js'
+    filename: 'main.bundle.js'
   },
   module: {
     rules: [
