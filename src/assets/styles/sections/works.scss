@@ -100,10 +100,10 @@
 
 .works__pagination {
     position: absolute;
-    right: 50%;
-    bottom: -5px;
+    // right: 50%;
+    bottom: -5px!important;
     z-index: 99;
-    transform: translateX(-50%);
+    // transform: translateX(-50%);
 }
 
 .works__bullet {
