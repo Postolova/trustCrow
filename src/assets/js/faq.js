@@ -1,27 +1,14 @@
 let panelItem = document.querySelectorAll('.question-text');
 let active = document.getElementsByClassName('.answer--active');
-// eslint-disable-next-line no-unused-vars
-let btnPlus = document.getElementsByClassName('.queston-btn__image');
 
-Array.from(panelItem).forEach(function(item, i, panelItem) {
-  item.addEventListener('click', function(e) {
+Array.from(panelItem).forEach(function(item) {
+  item.addEventListener('click', function() {
     if (active.length > 0 && active[0] !== this) {
       active[0].classList.remove('answer--active');
     }
     this.classList.toggle('answer--active');
   });
 });
-
-/* for (let i = 0; i < questionItems.length; i++) {
-  // eslint-disable-next-line no-unused-vars
-  // eslint-disable-next-line no-undef
-  // eslint-disable-next-line no-unused-vars
-  const elem = questionItems[i];
-  elem.addEventListener('click', function() {
-    btnClose.classList.toggle('image-rotate');
-  });
-}
- */
 
 const openBTN = document.querySelector('.hamburger');
 const closeBTN = document.querySelector('.close-btn');
